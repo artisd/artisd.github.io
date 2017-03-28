@@ -5,16 +5,17 @@ All group members should be listed below. Each group member should write the des
 ## Anna Rosenberg
 
 ### Responsibilities
-What will you be responsible for? Be specific. This is your contract with the group, as well as a guideline for assessing your participation at the end of the project. 
+Architecture, JavaScript, GitHub management
 
 
 ### Self-Assessment
-When the project is done, each group member should update this document to provide a self-assesment of their work, 
+
 
 
 ## Marykate McLoughlin
 
 ### Responsibilities
+Wireframes, writing/overall content
 
 ### Self-Assessment
 
@@ -22,6 +23,7 @@ When the project is done, each group member should update this document to provi
 ## Alexei Tetenov
 
 ### Responsibilities
+HTML/CSS, misc. help
 
 ### Self-Assessment
 
@@ -29,6 +31,7 @@ When the project is done, each group member should update this document to provi
 ## Bridgette Vuotto
 
 ### Responsibilities
+Design: wireframes, animations, images
 
 ### Self-Assessment
 
@@ -36,5 +39,6 @@ When the project is done, each group member should update this document to provi
 ## Collin Zanche
 
 ### Responsibilities
+HTML/CSS, misc. help
 
 ### Self-Assessment
