@@ -12,7 +12,7 @@ Architecture, JavaScript, GitHub management
 
 
 
-## Marykate McLoughlin
+## MK McLoughlin
 
 ### Responsibilities
 Wireframes, writing/overall content
