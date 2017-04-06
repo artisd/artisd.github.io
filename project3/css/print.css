@@ -1,0 +1,10 @@
+/* style for printing */
+
+@media print {
+    .download,
+    #download,
+    box,
+    .divider {
+        display: none !important;
+    }
+}
