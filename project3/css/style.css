@@ -1,0 +1,97 @@
+/* @import url("bootstrap.min.css"); */
+
+
+/*  the background color used on all of the pages */
+
+
+/* .navbar-header, */
+
+.navbar,
+body {
+    background-color: #9FCBCE;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* no border used on the navbar */
+
+.navbar {
+    border: none;
+}
+
+
+/*  font and color used in the navbar */
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*  font weight to be used in the nav-brand */
+
+.navbar-default .navbar-brand {
+    font-weight: 500;
+}
+
+
+/*  font weight to be used in the navbar list items */
+
+.navbar-default .navbar-nav>li>a {
+    font-weight: 400;
+}
+
+
+/*
+#main_container {
+    margin-right: 10px;
+}
+*/
+
+
+/* center the image inside the div */
+
+#sos_image {
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+}
+
+#main_heading {
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+#line1 {
+    font-size: 43px;
+    text-align: center;
+    color: #0F5789;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+#line2 {
+    font-size: 52px;
+    text-align: center;
+    color: #F7931E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#main_message {
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #428CB9;
+    font-size: 19px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#copyright i {
+    color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+}
