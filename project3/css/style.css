@@ -101,7 +101,9 @@
     
     .content {
         text-align: left;
+
     }
+    
     /* my team_member_image rounded corners are behind the image being displayed, not sure why. */
     
     .team_member_image img {
@@ -132,9 +134,9 @@
         transform: scale(1.2);
     }
     
-    .col-md-4:hover {
+    /*.col-md-4:hover {
         transform: scale(1.2);
-    }
+    }*/
     
     .col-md-3 h2:hover {
         text-shadow: 0px 0px 5px #0F5789;
@@ -155,3 +157,14 @@
         margin-left: 20px;
         text-align: center;
     }
+
+    .col-md-7 h3{
+        color: #0F5789;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+    }
+
+    .col-md-7 p{
+        font-family: 'Roboto', sans-serif;
+    }
+
