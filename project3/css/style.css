@@ -96,23 +96,36 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* page content */
-h1{
-    color:#F2F2F2;
+
+h1 {
+    color: #F2F2F2;
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     text-align: center;
 }
-h2{
-    color:#F2F2F2;
+
+h2 {
+    color: #F2F2F2;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
 }
-#main_container{
+
+#main_container {
     align-content: center;
 }
 
-.content{
+.content {
     text-align: left;
+}
+
+.team_member_image {
+    background-color: #BDDADB;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    margin-left: 40px;
 }
