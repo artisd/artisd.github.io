@@ -132,7 +132,7 @@
             <!-- <div class="row"> -->
             <div id="open_lab_schedule_content" style="display: none;">
 
-                <div class="col-md-4" id="content_graphic2" style="display: none;">
+                <div class="col-md-4" id="content_graphic2">
                     <img src="images/open_lab.png" alt="landing page" id="open_lab_image2" width="100%" />
                 </div>
                 <div class="col-md-4" id="open_lab_schedule" onclick="showContent('open_lab_schedule_content')">
@@ -223,11 +223,12 @@
 
             <!-- </div> -->
 
+            <div class="col-md-4" id="new_media_lab_content_graphic" style="display: none;">
+                <img src="images/new_media_lab.png" alt="landing page" id="new_media_lab_image2" width="100%" />
+            </div>
+
             <div id="new_media_lab_schedule_content" style="display: none;">
 
-                <div class="col-md-4" id="content_graphic3" style="display: none;">
-                    <img src="images/new_media_lab.png" alt="landing page" id="new_media_lab_image2" width="100%" />
-                </div>
                 <div class="col-md-4" id="new_media_lab_schedule" onclick="showContent('new_media_lab_schedule_content')">
 
                     <div id="new_media_lab_schedule_content2">
@@ -314,11 +315,12 @@
                 </div>
             </div>
 
+            <div class="col-md-4" id="sound_lab_content_graphic" style="display: none;">
+                <img src="images/sound_lab.png" alt="landing page" id="sound_lab_image2" width="100%" />
+            </div>
+
             <div id="sound_lab_schedule_content" style="display: none;">
 
-                <div class="col-md-4" id="content_graphic4" style="display: none;">
-                    <img src="images/sound_lab.png" alt="landing page" id="sound_lab_image2" width="100%" />
-                </div>
                 <div class="col-md-4" id="sound_lab_schedule" onclick="showContent('sound_lab_schedule_content')">
 
                     <div id="sound_lab_schedule_content2">
@@ -420,16 +422,20 @@
                         <h2>IGME CO-OP</h2>
                         <br>
                         <h3>About</h3>
-                        <p>A Co-Op is similar to a paid internship. You will spend time working with a company to gain some experience working in your field before you graduate. Students must take two Co-Ops sometime during the last three years of their program. A Co-Op is the length of one academic term, and can be taken during the summer as well as the fall or spring semesters.
-                             </p>
+                        <p>A Co-Op is similar to a paid internship. You will spend time working with a company to gain some experience working in your field before you graduate. Students must take two Co-Ops sometime during the last three years of their
+                            program. A Co-Op is the length of one academic term, and can be taken during the summer as well as the fall or spring semesters.
+                        </p>
                         <h3>The Co-Op Search</h3>
-                        <p>Finding a Co-Op can seem like a daunting task, but there are resources out there to make the process simpler for you. Career Fairs happen throughout the year, during which approximately 250 companies gather in the Gordon Field House here at RIT looking for potential hires. Another great resource is Job Zone, where information about potential jobs and Co-Ops are posted.</p>
+                        <p>Finding a Co-Op can seem like a daunting task, but there are resources out there to make the process simpler for you. Career Fairs happen throughout the year, during which approximately 250 companies gather in the Gordon Field
+                            House here at RIT looking for potential hires. Another great resource is Job Zone, where information about potential jobs and Co-Ops are posted.</p>
                         <h3>Prepare for Interviews</h3>
-                        <p>While you are on the Co-Op hunt, do what you can to prepare for the interview. One way to prepare is researching the company before you interview with them. You will have more to talk about with the interviewer and they will likely be impressed about your knowledge of the company. This shows you are well prepared and interested in what they have to offer you.</p>
+                        <p>While you are on the Co-Op hunt, do what you can to prepare for the interview. One way to prepare is researching the company before you interview with them. You will have more to talk about with the interviewer and they will likely
+                            be impressed about your knowledge of the company. This shows you are well prepared and interested in what they have to offer you.</p>
                         <h3>Your Co-op Evaluation - Receiving Credit</h3>
-                        <p>At your Co-Op, your employer will fill out an evaluation toward the end of your time working with them. The employer will rate you on you performance at work and comment on your time spent with the company. Having a good evaluation is essential for passing your Co-Op.</p>
+                        <p>At your Co-Op, your employer will fill out an evaluation toward the end of your time working with them. The employer will rate you on you performance at work and comment on your time spent with the company. Having a good evaluation
+                            is essential for passing your Co-Op.</p>
                         <h3>Appointments and Office Hours</h3>
-                        <p>Call 585-475-2301 to make an appointment with your Career Services Coordinator who will assist you on a one-on-one basis with any aspect of your job search and related activities. </p> 
+                        <p>Call 585-475-2301 to make an appointment with your Career Services Coordinator who will assist you on a one-on-one basis with any aspect of your job search and related activities. </p>
                         <p>Office Hours: Monday-Friday: 8:00 am – 4:30 pm</p>
                     </div>
                 </div>
@@ -543,10 +549,16 @@
 
     <script>
         function showContent(project) {
+            var landingDiv = document.getElementById('landing');
             var labsDiv = document.getElementById('labs_content');
             var openLabContentDiv = document.getElementById('open_lab_schedule_content');
+
             var newMediaLabContentDiv = document.getElementById('new_media_lab_schedule_content');
+            var new_media_lab_content_graphicDiv = document.getElementById('new_media_lab_content_graphic');
+
             var soundLabContentDiv = document.getElementById('sound_lab_schedule_content');
+            var sound_lab_content_graphicDiv = document.getElementById('sound_lab_content_graphic');
+
             var industryResourcesContentDiv = document.getElementById('industry_resources_content');
             var upcomingEventsContentDiv = document.getElementById('upcoming_events_content');
             var socialMediaDiv = document.getElementById('social_media_content');
@@ -555,10 +567,12 @@
 
             switch (project) {
                 case 'labs_content':
+                    landingDiv.style.display = 'none';
                     labsDiv.style.display = 'initial';
                     openLabContentDiv.style.display = 'none';
                     newMediaLabContentDiv.style.display = 'none';
                     soundLabContentDiv.style.display = 'none';
+                    sound_lab_content_graphicDiv.style.display = 'none';
                     industryResourcesContentDiv.style.display = 'none';
                     upcomingEventsContentDiv.style.display = 'none';
                     socialMediaDiv.style.display = 'none';
@@ -566,10 +580,12 @@
                     image2.style.display = 'none'; */
                     break;
                 case 'open_lab_content':
-                    labsDiv.style.display = 'initial';
+                    landingDiv.style.display = 'none';
+                    labsDiv.style.display = 'none';
                     openLabContentDiv.style.display = 'initial';
                     newMediaLabContentDiv.style.display = 'none';
                     soundLabContentDiv.style.display = 'none';
+                    sound_lab_content_graphicDiv.style.display = 'none';
                     industryResourcesContentDiv.style.display = 'none';
                     upcomingEventsContentDiv.style.display = 'none';
                     socialMediaDiv.style.display = 'none';
@@ -577,10 +593,13 @@
                     image2.style.display = 'initial'; */
                     break;
                 case 'new_media_lab_content':
-                    labsDiv.style.display = 'initial';
+                    landingDiv.style.display = 'none';
+                    labsDiv.style.display = 'none';
                     openLabContentDiv.style.display = 'none';
+                    new_media_lab_content_graphicDiv.style.display = 'initial';
                     newMediaLabContentDiv.style.display = 'initial';
                     soundLabContentDiv.style.display = 'none';
+                    sound_lab_content_graphicDiv.style.display = 'none';
                     industryResourcesContentDiv.style.display = 'none';
                     upcomingEventsContentDiv.style.display = 'none';
                     socialMediaDiv.style.display = 'none';
@@ -588,10 +607,12 @@
                     image2.style.display = 'initial'; */
                     break;
                 case 'sound_lab_content':
-                    labsDiv.style.display = 'initial';
+                    landingDiv.style.display = 'none';
+                    labsDiv.style.display = 'none';
                     openLabContentDiv.style.display = 'none';
                     newMediaLabContentDiv.style.display = 'none';
                     soundLabContentDiv.style.display = 'initial';
+                    sound_lab_content_graphicDiv.style.display = 'initial';
                     industryResourcesContentDiv.style.display = 'none';
                     upcomingEventsContentDiv.style.display = 'none';
                     socialMediaDiv.style.display = 'none';
@@ -599,30 +620,36 @@
                     image2.style.display = 'initial'; */
                     break;
                 case 'industry_resources_content':
+                    landingDiv.style.display = 'none';
                     labsDiv.style.display = 'none';
                     openLabContentDiv.style.display = 'none';
                     newMediaLabContentDiv.style.display = 'none';
                     soundLabContentDiv.style.display = 'none';
+                    sound_lab_content_graphicDiv.style.display = 'none';
                     industryResourcesContentDiv.style.display = 'initial';
                     upcomingEventsContentDiv.style.display = 'none';
                     /* socialMediaDiv.style.display = 'none';
                     image.style.display = 'initial'; */
                     break;
                 case 'upcoming_events_content':
+                    landingDiv.style.display = 'none';
                     labsDiv.style.display = 'none';
                     openLabContentDiv.style.display = 'none';
                     newMediaLabContentDiv.style.display = 'none';
                     soundLabContentDiv.style.display = 'none';
+                    sound_lab_content_graphicDiv.style.display = 'none';
                     industryResourcesContentDiv.style.display = 'none';
                     upcomingEventsContentDiv.style.display = 'initial';
                     socialMediaDiv.style.display = 'none';
                     /* image.style.display = 'initial'; */
                     break;
                 case 'social_media_content':
+                    landingDiv.style.display = 'none';
                     labsDiv.style.display = 'none';
                     openLabContentDiv.style.display = 'none';
                     newMediaLabContentDiv.style.display = 'none';
                     soundLabContentDiv.style.display = 'none';
+                    sound_lab_content_graphicDiv.style.display = 'none';
                     industryResourcesContentDiv.style.display = 'none';
                     upcomingEventsContentDiv.style.display = 'none';
                     socialMediaDiv.style.display = 'initial';
