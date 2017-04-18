@@ -109,3 +109,6 @@ h2{
     font-size: 20px;
     text-align: center;
 }
+#main_container{
+    align-content: center;
+}
