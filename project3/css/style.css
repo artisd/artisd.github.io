@@ -121,7 +121,6 @@ h2 {
     text-align: left;
 }
 
-<<<<<<< HEAD
 .team_member_image {
     background-color: #BDDADB;
     padding-left: 40px;
@@ -132,12 +131,11 @@ h2 {
 }
 
 .team_member_description {}
-=======
-.col-md-3:hover{
+
+.col-md-3:hover {
     transform: scale(1.2);
 }
 
-.col-md-3 h2:hover{
+.col-md-3 h2:hover {
     text-shadow: 0px 0px 5px #0F5789;
 }
->>>>>>> 7de415052fb6491602a04fe948a87aa279a057d8
