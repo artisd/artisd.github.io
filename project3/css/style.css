@@ -95,3 +95,17 @@ body {
     color: #F2F2F2;
     font-family: 'Roboto', sans-serif;
 }
+
+/* page content */
+h1{
+    color:#F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    color:#F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
