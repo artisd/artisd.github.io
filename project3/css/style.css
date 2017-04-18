@@ -127,6 +127,7 @@ h2 {
 .team_member_image img{
     background-color: #BDDADB;
     border-radius: 25px;
+    box-shadow: 0px 0px 20px #BDDADB;
     /*
     padding-left: 40px;
     padding-top: 20px;
