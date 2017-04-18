@@ -124,9 +124,8 @@ h2 {
 
 /* my team_member_image rounded corners are behind the image being displayed, not sure why. */
 
-.team_member_image {
+.team_member_image img{
     background-color: #BDDADB;
-    margin-left: 40px;
     border-radius: 25px;
     /*
     padding-left: 40px;
@@ -155,4 +154,15 @@ h2 {
 
 .col-md-3 h2:hover {
     text-shadow: 0px 0px 5px #0F5789;
+}
+
+/* ABOUT PAGE */
+.col-md-2 img{
+    width: 150px;
+    height: 150px;
+
+}
+.col-md-2 {
+    margin-left: 20px;
+    text-align: center;
 }
