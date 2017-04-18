@@ -86,8 +86,17 @@
                 </div>
             </div>
 
-            <div class="col-md-4" id="content_graphic" style="display: none;">
-                <img src="images/sos.png" alt="landing page" id="sos_image" width="80%" />
+            <div class="col-md-4" id="food_content_graphic" style="display: none;">
+                <img src="images/food.png" alt="landing page" id="food_image2" width="80%" />
+            </div>
+
+            <div class="col-md-4" id="main_office_content_graphic" style="display: none;">
+                <img src="images/main_office.png" alt="landing page" id="main_office_image2" width="80%" />
+            </div>
+
+            <div class="col-md-4" id="google_map_to_golisano_hall" style="display: none;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.965158977079!2d-77.68238884781579!3d43.084227829042355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d14c5f06f76405%3A0xb4addbe128ccc74f!2sGolisano+College+of+Computing+and+Information+Sciences%2C+20+Lomb+Memorial+Dr%2C+Rochester%2C+NY+14623!5e0!3m2!1sen!2sus!4v1492558611521"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
 
             <div class="col-md-4" id="google_map_to_orange_hall" style="display: none;">
@@ -172,49 +181,86 @@
     </div>
     <script>
         function showContent(project) {
-            var foodDiv = document.getElementById('food');
-            var main_officeDiv = document.getElementById('main_office');
-            var golisanoDiv = document.getElementById('golisano');
-            var orangeDiv = document.getElementById('orange_hall');
-            var image = document.getElementById('content_graphic');
             var landingDiv = document.getElementById('landing');
+
+            var foodDiv = document.getElementById('food');
+            var foodContentGraphicDiv = document.getElementById('food_content_graphic');
+
+            var main_officeDiv = document.getElementById('main_office');
+            var main_office_content_graphicDiv = document.getElementById('main_office_content_graphic');
+
+            var golisanoDiv = document.getElementById('golisano');
+            var google_map_to_golisanonDiv = document.getElementById('google_map_to_golisano_hall');
+
+            var orangeDiv = document.getElementById('orange_hall');
             var google_map_to_orange_hallDiv = document.getElementById('google_map_to_orange_hall');
+
+            var image = document.getElementById('content_graphic');
 
 
             switch (project) {
                 case 'food':
+                    landingDiv.style.display = 'none';
+
                     foodDiv.style.display = 'initial';
+                    foodContentGraphicDiv.style.display = 'initial';
+
                     main_officeDiv.style.display = 'none';
+                    main_office_content_graphicDiv.style.display = 'none';
+
                     golisanoDiv.style.display = 'none';
+
                     orangeDiv.style.display = 'none';
-                    image.style.display = 'initial';
-                    //landingDiv.style.display = 'none';
                     break;
                 case 'main_office':
+                    landingDiv.style.display = 'none';
+
                     foodDiv.style.display = 'none';
+                    foodContentGraphicDiv.style.display = 'none';
+
                     main_officeDiv.style.display = 'initial';
+                    main_office_content_graphicDiv.style.display = 'initial';
+
                     golisanoDiv.style.display = 'none';
+                    google_map_to_golisanonDiv.style.display = 'none';
+
                     orangeDiv.style.display = 'none';
+                    google_map_to_orange_hallDiv.style.display = 'none';
+
                     image.style.display = 'initial';
-                    //landingDiv.style.display = 'none';
                     break;
                 case 'golisano':
-                    foodDiv.style.display = 'none';
-                    main_officeDiv.style.display = 'none';
-                    golisanoDiv.style.display = 'initial';
-                    google_map_to_orange_hallDiv.style.display = 'initial';
-                    orangeDiv.style.display = 'none';
-                    /* image.style.display = 'initial'; */
                     landingDiv.style.display = 'none';
-                    //image.style.display = 'initial';
+
+                    foodDiv.style.display = 'none';
+                    foodContentGraphicDiv.style.display = 'none';
+
+                    main_officeDiv.style.display = 'none';
+                    main_office_content_graphicDiv.style.display = 'none';
+
+                    golisanoDiv.style.display = 'initial';
+                    google_map_to_golisanonDiv.style.display = 'initial';
+
+                    orangeDiv.style.display = 'none';
+                    google_map_to_orange_hallDiv.style.display = 'none';
+
                     break;
                 case 'orange_hall':
+                    landingDiv.style.display = 'none';
+
                     foodDiv.style.display = 'none';
+                    foodContentGraphicDiv.style.display = 'none';
+
                     main_officeDiv.style.display = 'none';
+                    main_office_content_graphicDiv.style.display = 'none';
+
                     golisanoDiv.style.display = 'none';
+                    google_map_to_golisanonDiv.style.display = 'none';
+
                     orangeDiv.style.display = 'initial';
+                    google_map_to_orange_hallDiv.style.display = 'initial';
+
                     image.style.display = 'initial';
-                    // landingDiv.style.display = 'none';
                     break;
             }
         }
