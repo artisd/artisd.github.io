@@ -112,3 +112,7 @@ h2{
 #main_container{
     align-content: center;
 }
+
+.content{
+    text-align: left;
+}
