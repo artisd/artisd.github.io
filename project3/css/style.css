@@ -171,7 +171,7 @@
                 /* css for the form */
                 
                 form {
-                    width: 600px;
+                    /* width: 600px; */
                     border: 1px solid #0F5789;
                     border-radius: 1em;
                     /* background-color: #eee; */
@@ -197,7 +197,7 @@
                 
                 label {
                     display: inline-block;
-                    width: 175px;
+                    /* width: 175px; */
                     text-align: right;
                     color: #0F5789;
                     font-family: 'Roboto', sans-serif;
@@ -206,7 +206,7 @@
                 
                 input,
                 textarea {
-                    width: 300px;
+                    /* width: 300px; */
                     border: 1px solid #0F5789;
                 }
                 
@@ -219,7 +219,7 @@
                     width: auto;
                 }
                 
-                ul {
+                form>ul {
                     margin: 0;
                     padding: 0;
                     list-style: none;
