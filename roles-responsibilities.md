@@ -9,7 +9,7 @@ Architecture, JavaScript, GitHub management
 
 
 ### Self-Assessment
-
+HTML architecture, CSS, JavaScript, Git management
 
 
 ## MK McLoughlin
