@@ -183,8 +183,6 @@
             var orangeDiv = document.getElementById('orange_hall');
             var google_map_to_orange_hallDiv = document.getElementById('google_map_to_orange_hall');
 
-            var image = document.getElementById('content_graphic');
-
 
             switch (project) {
                 case 'food':
@@ -197,8 +195,10 @@
                     main_office_content_graphicDiv.style.display = 'none';
 
                     golisanoDiv.style.display = 'none';
+                    google_map_to_golisanonDiv.style.display = 'none';
 
                     orangeDiv.style.display = 'none';
+                    google_map_to_orange_hallDiv.style.display = 'none';
                     break;
                 case 'main_office':
                     landingDiv.style.display = 'none';
@@ -214,8 +214,6 @@
 
                     orangeDiv.style.display = 'none';
                     google_map_to_orange_hallDiv.style.display = 'none';
-
-                    image.style.display = 'initial';
                     break;
                 case 'golisano':
                     landingDiv.style.display = 'none';
@@ -247,8 +245,6 @@
 
                     orangeDiv.style.display = 'initial';
                     google_map_to_orange_hallDiv.style.display = 'initial';
-
-                    image.style.display = 'initial';
                     break;
             }
         }
