@@ -168,3 +168,79 @@
     .content ul {
         list-style: none;
     }
+    /* css for the form */
+    
+    form {
+        width: 600px;
+        border: 1px solid #0F5789;
+        border-radius: 1em;
+        /* background-color: #eee; */
+        margin: 0 auto;
+        padding: 1em;
+    }
+    /*
+    h1 {
+        text-align: center;
+    }*/
+    
+    fieldset {
+        border: 1px solid #0F5789;
+        border-radius: 1em;
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
+    
+    div {
+        margin: 1em 0;
+        padding: 0;
+    }
+    
+    label {
+        display: inline-block;
+        width: 175px;
+        text-align: right;
+        color: #0F5789;
+        font-family: 'Roboto', sans-serif;
+        /* font-size: 30px; */
+    }
+    
+    input,
+    textarea {
+        width: 300px;
+        border: 1px solid #0F5789;
+    }
+    
+    textarea {
+        vertical-align: top;
+        height: 15em;
+    }
+    
+    input[type=radio] {
+        width: auto;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    button {
+        border: 1px solid #999;
+        /* background-color: white; */
+        color: #0F5789;
+        margin: auto;
+        font-size: 1.2em;
+    }
+    
+    button:hover {
+        background-color: #0F5789;
+        color: white;
+        cursor: pointer;
+    }
+    
+    form>div:last-child {
+        text-align: center;
+    }
