@@ -208,10 +208,12 @@
                 textarea {
                     /* width: 300px; */
                     border: 1px solid #0F5789;
+                    width: 30em;
                 }
                 
                 textarea {
                     vertical-align: top;
+                    width: 30em;
                     height: 15em;
                 }
                 
