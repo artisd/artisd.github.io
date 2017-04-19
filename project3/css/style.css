@@ -1,178 +1,254 @@
-    /* @import url("bootstrap.min.css"); */
-    /*  the background color used on all of the pages */
-    /* .navbar-header, */
-    
-    .navbar,
-    body {
-        background-color: #9FCBCE;
-        font-family: 'Roboto', sans-serif;
-    }
-    /* no border used on the navbar */
-    
-    .navbar {
-        border: none;
-    }
-    /*  font and color used in the navbar */
-    
-    .navbar-default .navbar-brand,
-    .navbar-default .navbar-nav>li>a {
-        color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
-    }
-    /*  font weight to be used in the nav-brand */
-    
-    .navbar-default .navbar-brand {
-        font-weight: 500;
-    }
-    /*  font weight to be used in the navbar list items */
-    
-    .navbar-default .navbar-nav>li>a {
-        font-weight: 400;
-    }
-    /*
+                /* @import url("bootstrap.min.css"); */
+                /*  the background color used on all of the pages */
+                /* .navbar-header, */
+                
+                .navbar,
+                body {
+                    background-color: #9FCBCE;
+                    font-family: 'Roboto', sans-serif;
+                }
+                /* no border used on the navbar */
+                
+                .navbar {
+                    border: none;
+                }
+                /*  font and color used in the navbar */
+                
+                .navbar-default .navbar-brand,
+                .navbar-default .navbar-nav>li>a {
+                    color: #F2F2F2;
+                    font-family: 'Roboto', sans-serif;
+                }
+                /*  font weight to be used in the nav-brand */
+                
+                .navbar-default .navbar-brand {
+                    font-weight: 500;
+                }
+                /*  font weight to be used in the navbar list items */
+                
+                .navbar-default .navbar-nav>li>a {
+                    font-weight: 400;
+                }
+                /*
 #main_container {
     margin-right: 10px;
 }
 */
-    /* center the image inside the div */
-    
-    #sos_image {
-        display: block;
-        margin: auto;
-        padding-top: 40px;
-    }
-    
-    #main_heading {
-        background-color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    #line1 {
-        font-size: 43px;
-        text-align: center;
-        color: #0F5789;
-        padding-top: 30px;
-        margin-bottom: 0px;
-    }
-    
-    #line2 {
-        font-size: 52px;
-        text-align: center;
-        color: #F7931E;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    
-    #main_message {
-        background-color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        color: #428CB9;
-        font-size: 19px;
-        padding-left: 150px;
-        padding-right: 150px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    
-    #copyright i {
-        color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
-    }
-    /* page content */
-    
-    h1 {
-        color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
-        font-size: 50px;
-        text-align: center;
-    }
-    
-    h2 {
-        color: #F2F2F2;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        text-align: center;
-    }
-    
-    #main_container {
-        align-content: center;
-    }
-    
-    .content {
-        text-align: left;
-    }
-    /* my team_member_image rounded corners are behind the image being displayed, not sure why. */
-    
-    .team_member_image img {
-        background-color: #BDDADB;
-        border-radius: 25px;
-        /*
+                /* center the image inside the div */
+                
+                #sos_image {
+                    display: block;
+                    margin: auto;
+                    padding-top: 40px;
+                }
+                
+                #main_heading {
+                    background-color: #F2F2F2;
+                    font-family: 'Roboto', sans-serif;
+                }
+                
+                #line1 {
+                    font-size: 43px;
+                    text-align: center;
+                    color: #0F5789;
+                    padding-top: 30px;
+                    margin-bottom: 0px;
+                }
+                
+                #line2 {
+                    font-size: 52px;
+                    text-align: center;
+                    color: #F7931E;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+                
+                #main_message {
+                    background-color: #F2F2F2;
+                    font-family: 'Roboto', sans-serif;
+                    text-align: center;
+                    color: #428CB9;
+                    font-size: 19px;
+                    padding-left: 150px;
+                    padding-right: 150px;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                }
+                
+                #copyright i {
+                    color: #F2F2F2;
+                    font-family: 'Roboto', sans-serif;
+                }
+                /* page content */
+                
+                h1 {
+                    color: #F2F2F2;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 50px;
+                    text-align: center;
+                }
+                
+                h2 {
+                    color: #F2F2F2;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                
+                #main_container {
+                    align-content: center;
+                }
+                
+                .content {
+                    text-align: left;
+                }
+                /* my team_member_image rounded corners are behind the image being displayed, not sure why. */
+                
+                .team_member_image img {
+                    background-color: #BDDADB;
+                    border-radius: 25px;
+                    /*
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     */
-    }
-    
-    .team_member_description h2 {
-        color: #0F5789;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        text-align: center;
-    }
-    
-    .team_member_description p {
-        color: #F2F2F2;
-        font-family: 'Arial';
-        font-size: 15px;
-        text-align: center;
-    }
-    
-    .col-md-3:hover {
-        transform: scale(1.2);
-    }
-    /*.col-md-4:hover {
+                }
+                
+                .team_member_description h2 {
+                    color: #0F5789;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                
+                .team_member_description p {
+                    color: #F2F2F2;
+                    font-family: 'Arial';
+                    font-size: 15px;
+                    text-align: center;
+                }
+                
+                .col-md-3:hover {
+                    transform: scale(1.2);
+                }
+                /*.col-md-4:hover {
         transform: scale(1.2);
     }*/
-    
-    .col-md-3 h2:hover {
-        text-shadow: 0px 0px 5px #0F5789;
-    }
-    
-    .resource_content {
-        text-align: left;
-        margin-top: 50px;
-    }
-    /* ABOUT PAGE */
-    
-    .col-md-2 img {
-        width: 150px;
-        height: 150px;
-    }
-    
-    .col-md-2 {
-        margin-left: 20px;
+                
+                .col-md-3 h2:hover {
+                    text-shadow: 0px 0px 5px #0F5789;
+                }
+                
+                .resource_content {
+                    text-align: left;
+                    margin-top: 50px;
+                }
+                /* ABOUT PAGE */
+                
+                .col-md-2 img {
+                    width: 150px;
+                    height: 150px;
+                }
+                
+                .col-md-2 {
+                    margin-left: 20px;
+                    text-align: center;
+                }
+                
+                .col-md-7 h3 {
+                    color: #0F5789;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 30px;
+                }
+                
+                .col-md-7 p {
+                    font-family: 'Roboto', sans-serif;
+                }
+                
+                .content ul {
+                    list-style: none;
+                }
+                /* css for the form */
+                
+                form {
+                    width: 600px;
+                    border: 1px solid #0F5789;
+                    border-radius: 1em;
+                    /* background-color: #eee; */
+                    margin: 0 auto;
+                    padding: 1em;
+                }
+                /*
+    h1 {
         text-align: center;
-    }
-    
-    .col-md-7 h3 {
-        color: #0F5789;
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-    }
-    
-    .col-md-7 p {
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    .content ul {
-        list-style: none;
-    }
-
-    p{
-        color:#0F5789;
-    }
-
-    ul{
-        color: #0F5789;
-    }
+    }*/
+                
+                fieldset {
+                    border: 1px solid #0F5789;
+                    border-radius: 1em;
+                    margin: 20px 0 0 0;
+                    padding: 0;
+                }
+                
+                div {
+                    margin: 1em 0;
+                    padding: 0;
+                }
+                
+                label {
+                    display: inline-block;
+                    width: 175px;
+                    text-align: right;
+                    color: #0F5789;
+                    font-family: 'Roboto', sans-serif;
+                    /* font-size: 30px; */
+                }
+                
+                input,
+                textarea {
+                    width: 300px;
+                    border: 1px solid #0F5789;
+                }
+                
+                textarea {
+                    vertical-align: top;
+                    height: 15em;
+                }
+                
+                input[type=radio] {
+                    width: auto;
+                }
+                
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                
+                button {
+                    border: 1px solid #999;
+                    /* background-color: white; */
+                    color: #0F5789;
+                    margin: auto;
+                    font-size: 1.2em;
+                }
+                
+                button:hover {
+                    background-color: #0F5789;
+                    color: white;
+                    cursor: pointer;
+                }
+                
+                form>div:last-child {
+                    text-align: center;
+                }
+                
+                p {
+                    color: #0F5789;
+                }
+                
+                ul {
+                    color: #0F5789;
+                }
